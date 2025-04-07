@@ -1,0 +1,71 @@
+.headercontainer {
+    font-family: Robto;
+    background-color: #1f2937;
+    gap: 30PX;
+}
+
+
+.upperheader {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 18px;
+    gap: 500px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    list-style: none;
+    gap: 18px;
+}
+.links, a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.logoimage {
+    height: 60px;
+    width: 90px;
+    border-radius: 30px;
+}
+
+.lowerheader {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+    padding-bottom: 25PX;
+}
+
+.leftside {
+    max-width: 500px;
+    flex: 1;
+}
+
+.leftside div {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.leftside button {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    text-align: center;
+
+}
+
+.leftside, p {
+    color: #E5E7EB;
+    font-size: 18px;
+
+}
+
+#rightside {
+    height: 200px;
+    width: 300px;
+    flex-shrink: 0;
+}
+
